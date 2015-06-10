@@ -4,7 +4,7 @@ dp.directive 'ngDatepicker', ->
   restrict: 'A'
   replace: true
   scope:
-    ngOptions: '='
+    ngOptions: '=options'
     ngModel: '='
   template: """
               <input type="text">

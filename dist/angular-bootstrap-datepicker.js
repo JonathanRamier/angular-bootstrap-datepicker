@@ -2498,7 +2498,7 @@ dp.directive('ngDatepicker', function() {
     restrict: 'A',
     replace: true,
     scope: {
-      ngOptions: '=',
+      ngOptions: '=options',
       ngModel: '='
     },
     template: "<input type=\"text\">",

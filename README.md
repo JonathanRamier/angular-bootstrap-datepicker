@@ -40,7 +40,7 @@ Make sure you use `charset="utf-8"` in your script tag if your browser (or those
 To use the directive, use the following code :
 
 ```html
-<input type="text" ng-datepicker ng-options="datepickerOptions" ng-model="date">
+<input type="text" data-ng-datepicker data-options="datepickerOptions" data-ng-model="date">
 ```
 
 `ng-datepicker` : Indicates you want your input as a date picker.
